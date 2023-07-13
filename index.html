@@ -1,0 +1,897 @@
+<!doctype html>
+<html style="font-family: 'Poppins', sans-serif;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/globals.css">
+</head>
+
+<body >
+    <!-- navigation-bar -->
+    <div class="bg-[#27318B]">
+        <nav class="max-w-[1440px] p-5 mx-auto">
+            <div class="grid grid-cols-12">
+                <div class="max-w-[300px] col-span-5">
+                    <img src="/images/navbar/site-logo.png" alt="" height="300" width="350">
+                </div>
+                <div class="flex flex-col justify-center lg:col-span-7 col-span-full">
+                    <div class="relative">
+                        <div>
+                            <input type="search" class="w-full p-3 rounded pl-4" placeholder="Search for products...">
+                            <button class="p-1 bg-slate-300 absolute right-0 top-0 bottom-0 px-3 rounded">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-7 h-10  text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <ul class="flex text-xs text-slate-300 justify-between mt-3">
+                        <li>
+                            <a href="/home">HOME</a>
+                        </li>
+                        <li>
+                            <a href="/categories">CATEGORIES</a>
+                        </li>
+                        <li>
+                            <a href="/products">PRODUCTS</a>
+                        </li>
+                        <li>
+                            <a href="/membership">MEMBERSHIP</a>
+                        </li>
+                        <li>
+                            <a href="/about-us">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="/why-us">WHY US</a>
+                        </li>
+                        <li>
+                            <a href="/testimonials">TESTIMONIALS</a>
+                        </li>
+                        <li>
+                            <a href="/contact-us">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- main-banner / slider Area -->
+    <section class="max-w-[1440px] mx-auto">
+        <a href="#" class="max-h-[550px] banner-overlay">
+            <img src="/images/slider/slider-img-1.png" alt="">
+        </a>
+    </section>
+
+    <!-- categories-section -->
+    <section>
+        <div class="grid grid-cols-5 gap-x-3 max-w-[1440px] mx-auto py-10 px-5">
+            <a href="#" class="banner-overlay">
+                <img src="/images/categories/cat-1.png" alt="">
+            </a>
+            <a href="#" class="banner-overlay">
+                <img src="/images/categories/cat-2.png" alt="">
+            </a>
+            <a href="#" class="banner-overlay">
+                <img src="/images/categories/cat-3.png" alt="">
+            </a>
+            <a href="#" class="banner-overlay">
+                <img src="/images/categories/cat-4.png" alt="">
+            </a>
+            <a href="#" class="banner-overlay">
+                <img src="/images/categories/cat-5.png" alt="">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- products section -->
+    <section class="max-w-[1440px] mx-auto px-3">
+        <h4 class="font-semibold text-2xl mb-3 ">Top Products</h4>
+        <div class="flex overflow-x-auto w-full  mx-auto space-x-3">
+
+
+            <div class="relative border border-muted rounded-lg bg-white  max-w-[250px]">
+                <figure class="border border-muted m-2 rounded-lg relative "><a
+                        class="block bg-white  rounded-lg rounded-b-none  relative" href="#"><img alt="product_img"
+                            loading="lazy" width="200" height="200"
+                            class="rounded-lg  object-cover h-full w-full max-h-[200px]" style="color:transparent"
+                            src="https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/s/u/sunshine-n-omega-3-fish-oil-conc-1000-mg-100-sg_3.jpg">
+                        <span
+                            class="flex absolute bg-amber-400 opacity-90 rounded-bl-lg px-[7px] py-[1px] bottom-0 left-0 rounded-tr-xl shadow-xl ">
+                            <div class="my-auto"><svg xmlns="http://www.w3.org/2000/svg" fill="orange"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                                    class="lg:w-4 stroke-white lg:h-3 w-3 h-3 mr-1 fill-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                    </path>
+                                </svg></div>
+                            <div class=" lg:text-sm !text-[12px] text-white ml-1">4.7</div>
+                        </span>
+
+                        <div style="background:#d86e18"
+                            class="flex absolute left-0 top-0 w-fit text-white px-3 items-center rounded-tl-lg rounded-br-2xl text-[9px] sm:py-1 py-[2px] sm:text-xs h-fit">
+                            <span class="items-center">Best Seller</span>
+                            <div class="ml-2"><img alt="icon" loading="lazy" width="30" height="30" decoding="async"
+                                    data-nimg="1" class="sm:w-4 sm:h-4 h-2 w-2  flex item-center"
+                                    style="color:transparent" src="https://www.lifepharmacy.com/images/label/2.svg">
+                            </div>
+                        </div>
+                    </a></figure>
+                <div class="bg-white px-2 py-1 rounded-lg rounded-t-none">
+                    <div class="flex justify-between"><span class="whitespace-nowrap"><b class="text-red-500 "><span
+                                    class="md:text-xs text-[10px]">AED</span> <span
+                                    class="lg:text-lg sm:text-base text-base font-semibold">99.23</span></b><b
+                                class="sm:mx-3 ml-1 text-blue-400"><span
+                                    class="sm:text-xs text-[10px] line-through sm:inline-block hidden">AED</span> <span
+                                    class="sm:text-xs  line-through text-[10px]">141.75</span></b></span></div><a
+                        class="h-5 block" href="#">
+                        <div class="lg:text-sm text-xs text-[#002579] overflow-hidden whitespace-normal"
+                            style="-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box">Sunshine
+                            Nutrition Omega 3 Fish Oil Concentrate 1000mg 100 Softgels</div>
+                    </a>
+                    <div class="mt-5">
+                        <div class=" overflow-hidden whitespace-nowrap text-ellipsis"><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oils</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Senior
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Heart
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oil &amp; Omegas</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Immune
+                                Support</a></div>
+                        <div class="flex justify-between mt-3 items-center">
+                            <div class="flex"><img data-v-11f2193b="" alt="delivery-img" loading="lazy" width="20"
+                                    height="20" decoding="async" data-nimg="1" class="my-auto" style="color:transparent"
+                                    src="https://www.lifepharmacy.com/images/standard-nr.svg"><span
+                                    class="lg:text-xs my-auto lg:ml-3 ml-1 text-[10px]">12 - 24 HRS</span></div><button
+                                class="bg-[#39f] text-white px-2 flex  justify-center  lg:py-1 py-1 rounded"><svg
+                                    class="w-5 h-5 my-auto fill-white mr-2" fill="#000000" viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M 4 7 C 3.449219 7 3 7.449219 3 8 C 3 8.550781 3.449219 9 4 9 L 6.21875 9 L 8.84375 19.5 C 9.066406 20.390625 9.863281 21 10.78125 21 L 23.25 21 C 24.152344 21 24.917969 20.402344 25.15625 19.53125 L 27.75 10 L 25.65625 10 L 23.25 19 L 10.78125 19 L 8.15625 8.5 C 7.933594 7.609375 7.136719 7 6.21875 7 Z M 22 21 C 20.355469 21 19 22.355469 19 24 C 19 25.644531 20.355469 27 22 27 C 23.644531 27 25 25.644531 25 24 C 25 22.355469 23.644531 21 22 21 Z M 13 21 C 11.355469 21 10 22.355469 10 24 C 10 25.644531 11.355469 27 13 27 C 14.644531 27 16 25.644531 16 24 C 16 22.355469 14.644531 21 13 21 Z M 16 7 L 16 10 L 13 10 L 13 12 L 16 12 L 16 15 L 18 15 L 18 12 L 21 12 L 21 10 L 18 10 L 18 7 Z M 13 23 C 13.5625 23 14 23.4375 14 24 C 14 24.5625 13.5625 25 13 25 C 12.4375 25 12 24.5625 12 24 C 12 23.4375 12.4375 23 13 23 Z M 22 23 C 22.5625 23 23 23.4375 23 24 C 23 24.5625 22.5625 25 22 25 C 21.4375 25 21 24.5625 21 24 C 21 23.4375 21.4375 23 22 23 Z">
+                                        </path>
+                                    </g>
+                                </svg><span class="my-auto text-xs ">ADD</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative border border-muted rounded-lg bg-white  max-w-[250px]">
+                <figure class="border border-muted m-2 rounded-lg relative "><a
+                        class="block bg-white  rounded-lg rounded-b-none  relative" href="#"><img alt="product_img"
+                            loading="lazy" width="200" height="200"
+                            class="rounded-lg  object-cover h-full w-full max-h-[200px]" style="color:transparent"
+                            src="https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/s/u/sunshine-n-omega-3-fish-oil-conc-1000-mg-100-sg_3.jpg">
+                        <span
+                            class="flex absolute bg-amber-400 opacity-90 rounded-bl-lg px-[7px] py-[1px] bottom-0 left-0 rounded-tr-xl shadow-xl ">
+                            <div class="my-auto"><svg xmlns="http://www.w3.org/2000/svg" fill="orange"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                                    class="lg:w-4 stroke-white lg:h-3 w-3 h-3 mr-1 fill-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                    </path>
+                                </svg></div>
+                            <div class=" lg:text-sm !text-[12px] text-white ml-1">4.7</div>
+                        </span>
+
+                        <div style="background:#d86e18"
+                            class="flex absolute left-0 top-0 w-fit text-white px-3 items-center rounded-tl-lg rounded-br-2xl text-[9px] sm:py-1 py-[2px] sm:text-xs h-fit">
+                            <span class="items-center">Best Seller</span>
+                            <div class="ml-2"><img alt="icon" loading="lazy" width="30" height="30" decoding="async"
+                                    data-nimg="1" class="sm:w-4 sm:h-4 h-2 w-2  flex item-center"
+                                    style="color:transparent" src="https://www.lifepharmacy.com/images/label/2.svg">
+                            </div>
+                        </div>
+                    </a></figure>
+                <div class="bg-white px-2 py-1 rounded-lg rounded-t-none">
+                    <div class="flex justify-between"><span class="whitespace-nowrap"><b class="text-red-500 "><span
+                                    class="md:text-xs text-[10px]">AED</span> <span
+                                    class="lg:text-lg sm:text-base text-base font-semibold">99.23</span></b><b
+                                class="sm:mx-3 ml-1 text-blue-400"><span
+                                    class="sm:text-xs text-[10px] line-through sm:inline-block hidden">AED</span> <span
+                                    class="sm:text-xs  line-through text-[10px]">141.75</span></b></span></div><a
+                        class="h-5 block" href="#">
+                        <div class="lg:text-sm text-xs text-[#002579] overflow-hidden whitespace-normal"
+                            style="-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box">Sunshine
+                            Nutrition Omega 3 Fish Oil Concentrate 1000mg 100 Softgels</div>
+                    </a>
+                    <div class="mt-5">
+                        <div class=" overflow-hidden whitespace-nowrap text-ellipsis"><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oils</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Senior
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Heart
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oil &amp; Omegas</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Immune
+                                Support</a></div>
+                        <div class="flex justify-between mt-3 items-center">
+                            <div class="flex"><img data-v-11f2193b="" alt="delivery-img" loading="lazy" width="20"
+                                    height="20" decoding="async" data-nimg="1" class="my-auto" style="color:transparent"
+                                    src="https://www.lifepharmacy.com/images/standard-nr.svg"><span
+                                    class="lg:text-xs my-auto lg:ml-3 ml-1 text-[10px]">12 - 24 HRS</span></div><button
+                                class="bg-[#39f] text-white px-2 flex  justify-center  lg:py-1 py-1 rounded"><svg
+                                    class="w-5 h-5 my-auto fill-white mr-2" fill="#000000" viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M 4 7 C 3.449219 7 3 7.449219 3 8 C 3 8.550781 3.449219 9 4 9 L 6.21875 9 L 8.84375 19.5 C 9.066406 20.390625 9.863281 21 10.78125 21 L 23.25 21 C 24.152344 21 24.917969 20.402344 25.15625 19.53125 L 27.75 10 L 25.65625 10 L 23.25 19 L 10.78125 19 L 8.15625 8.5 C 7.933594 7.609375 7.136719 7 6.21875 7 Z M 22 21 C 20.355469 21 19 22.355469 19 24 C 19 25.644531 20.355469 27 22 27 C 23.644531 27 25 25.644531 25 24 C 25 22.355469 23.644531 21 22 21 Z M 13 21 C 11.355469 21 10 22.355469 10 24 C 10 25.644531 11.355469 27 13 27 C 14.644531 27 16 25.644531 16 24 C 16 22.355469 14.644531 21 13 21 Z M 16 7 L 16 10 L 13 10 L 13 12 L 16 12 L 16 15 L 18 15 L 18 12 L 21 12 L 21 10 L 18 10 L 18 7 Z M 13 23 C 13.5625 23 14 23.4375 14 24 C 14 24.5625 13.5625 25 13 25 C 12.4375 25 12 24.5625 12 24 C 12 23.4375 12.4375 23 13 23 Z M 22 23 C 22.5625 23 23 23.4375 23 24 C 23 24.5625 22.5625 25 22 25 C 21.4375 25 21 24.5625 21 24 C 21 23.4375 21.4375 23 22 23 Z">
+                                        </path>
+                                    </g>
+                                </svg><span class="my-auto text-xs ">ADD</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="relative border border-muted rounded-lg bg-white  max-w-[250px]">
+                <figure class="border border-muted m-2 rounded-lg relative "><a
+                        class="block bg-white  rounded-lg rounded-b-none  relative" href="#"><img alt="product_img"
+                            loading="lazy" width="200" height="200"
+                            class="rounded-lg  object-cover h-full w-full max-h-[200px]" style="color:transparent"
+                            src="https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/s/u/sunshine-n-omega-3-fish-oil-conc-1000-mg-100-sg_3.jpg">
+                        <span
+                            class="flex absolute bg-amber-400 opacity-90 rounded-bl-lg px-[7px] py-[1px] bottom-0 left-0 rounded-tr-xl shadow-xl ">
+                            <div class="my-auto"><svg xmlns="http://www.w3.org/2000/svg" fill="orange"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                                    class="lg:w-4 stroke-white lg:h-3 w-3 h-3 mr-1 fill-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                    </path>
+                                </svg></div>
+                            <div class=" lg:text-sm !text-[12px] text-white ml-1">4.7</div>
+                        </span>
+
+                        <div style="background:#d86e18"
+                            class="flex absolute left-0 top-0 w-fit text-white px-3 items-center rounded-tl-lg rounded-br-2xl text-[9px] sm:py-1 py-[2px] sm:text-xs h-fit">
+                            <span class="items-center">Best Seller</span>
+                            <div class="ml-2"><img alt="icon" loading="lazy" width="30" height="30" decoding="async"
+                                    data-nimg="1" class="sm:w-4 sm:h-4 h-2 w-2  flex item-center"
+                                    style="color:transparent" src="https://www.lifepharmacy.com/images/label/2.svg">
+                            </div>
+                        </div>
+                    </a></figure>
+                <div class="bg-white px-2 py-1 rounded-lg rounded-t-none">
+                    <div class="flex justify-between"><span class="whitespace-nowrap"><b class="text-red-500 "><span
+                                    class="md:text-xs text-[10px]">AED</span> <span
+                                    class="lg:text-lg sm:text-base text-base font-semibold">99.23</span></b><b
+                                class="sm:mx-3 ml-1 text-blue-400"><span
+                                    class="sm:text-xs text-[10px] line-through sm:inline-block hidden">AED</span> <span
+                                    class="sm:text-xs  line-through text-[10px]">141.75</span></b></span></div><a
+                        class="h-5 block" href="#">
+                        <div class="lg:text-sm text-xs text-[#002579] overflow-hidden whitespace-normal"
+                            style="-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box">Sunshine
+                            Nutrition Omega 3 Fish Oil Concentrate 1000mg 100 Softgels</div>
+                    </a>
+                    <div class="mt-5">
+                        <div class=" overflow-hidden whitespace-nowrap text-ellipsis"><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oils</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Senior
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Heart
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oil &amp; Omegas</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Immune
+                                Support</a></div>
+                        <div class="flex justify-between mt-3 items-center">
+                            <div class="flex"><img data-v-11f2193b="" alt="delivery-img" loading="lazy" width="20"
+                                    height="20" decoding="async" data-nimg="1" class="my-auto" style="color:transparent"
+                                    src="https://www.lifepharmacy.com/images/standard-nr.svg"><span
+                                    class="lg:text-xs my-auto lg:ml-3 ml-1 text-[10px]">12 - 24 HRS</span></div><button
+                                class="bg-[#39f] text-white px-2 flex  justify-center  lg:py-1 py-1 rounded"><svg
+                                    class="w-5 h-5 my-auto fill-white mr-2" fill="#000000" viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M 4 7 C 3.449219 7 3 7.449219 3 8 C 3 8.550781 3.449219 9 4 9 L 6.21875 9 L 8.84375 19.5 C 9.066406 20.390625 9.863281 21 10.78125 21 L 23.25 21 C 24.152344 21 24.917969 20.402344 25.15625 19.53125 L 27.75 10 L 25.65625 10 L 23.25 19 L 10.78125 19 L 8.15625 8.5 C 7.933594 7.609375 7.136719 7 6.21875 7 Z M 22 21 C 20.355469 21 19 22.355469 19 24 C 19 25.644531 20.355469 27 22 27 C 23.644531 27 25 25.644531 25 24 C 25 22.355469 23.644531 21 22 21 Z M 13 21 C 11.355469 21 10 22.355469 10 24 C 10 25.644531 11.355469 27 13 27 C 14.644531 27 16 25.644531 16 24 C 16 22.355469 14.644531 21 13 21 Z M 16 7 L 16 10 L 13 10 L 13 12 L 16 12 L 16 15 L 18 15 L 18 12 L 21 12 L 21 10 L 18 10 L 18 7 Z M 13 23 C 13.5625 23 14 23.4375 14 24 C 14 24.5625 13.5625 25 13 25 C 12.4375 25 12 24.5625 12 24 C 12 23.4375 12.4375 23 13 23 Z M 22 23 C 22.5625 23 23 23.4375 23 24 C 23 24.5625 22.5625 25 22 25 C 21.4375 25 21 24.5625 21 24 C 21 23.4375 21.4375 23 22 23 Z">
+                                        </path>
+                                    </g>
+                                </svg><span class="my-auto text-xs ">ADD</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative border border-muted rounded-lg bg-white  max-w-[250px]">
+                <figure class="border border-muted m-2 rounded-lg relative "><a
+                        class="block bg-white  rounded-lg rounded-b-none  relative" href="#"><img alt="product_img"
+                            loading="lazy" width="200" height="200"
+                            class="rounded-lg  object-cover h-full w-full max-h-[200px]" style="color:transparent"
+                            src="https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/s/u/sunshine-n-omega-3-fish-oil-conc-1000-mg-100-sg_3.jpg">
+                        <span
+                            class="flex absolute bg-amber-400 opacity-90 rounded-bl-lg px-[7px] py-[1px] bottom-0 left-0 rounded-tr-xl shadow-xl ">
+                            <div class="my-auto"><svg xmlns="http://www.w3.org/2000/svg" fill="orange"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                                    class="lg:w-4 stroke-white lg:h-3 w-3 h-3 mr-1 fill-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                    </path>
+                                </svg></div>
+                            <div class=" lg:text-sm !text-[12px] text-white ml-1">4.7</div>
+                        </span>
+
+                        <div style="background:#d86e18"
+                            class="flex absolute left-0 top-0 w-fit text-white px-3 items-center rounded-tl-lg rounded-br-2xl text-[9px] sm:py-1 py-[2px] sm:text-xs h-fit">
+                            <span class="items-center">Best Seller</span>
+                            <div class="ml-2"><img alt="icon" loading="lazy" width="30" height="30" decoding="async"
+                                    data-nimg="1" class="sm:w-4 sm:h-4 h-2 w-2  flex item-center"
+                                    style="color:transparent" src="https://www.lifepharmacy.com/images/label/2.svg">
+                            </div>
+                        </div>
+                    </a></figure>
+                <div class="bg-white px-2 py-1 rounded-lg rounded-t-none">
+                    <div class="flex justify-between"><span class="whitespace-nowrap"><b class="text-red-500 "><span
+                                    class="md:text-xs text-[10px]">AED</span> <span
+                                    class="lg:text-lg sm:text-base text-base font-semibold">99.23</span></b><b
+                                class="sm:mx-3 ml-1 text-blue-400"><span
+                                    class="sm:text-xs text-[10px] line-through sm:inline-block hidden">AED</span> <span
+                                    class="sm:text-xs  line-through text-[10px]">141.75</span></b></span></div><a
+                        class="h-5 block" href="#">
+                        <div class="lg:text-sm text-xs text-[#002579] overflow-hidden whitespace-normal"
+                            style="-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box">Sunshine
+                            Nutrition Omega 3 Fish Oil Concentrate 1000mg 100 Softgels</div>
+                    </a>
+                    <div class="mt-5">
+                        <div class=" overflow-hidden whitespace-nowrap text-ellipsis"><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oils</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Senior
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Heart
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oil &amp; Omegas</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Immune
+                                Support</a></div>
+                        <div class="flex justify-between mt-3 items-center">
+                            <div class="flex"><img data-v-11f2193b="" alt="delivery-img" loading="lazy" width="20"
+                                    height="20" decoding="async" data-nimg="1" class="my-auto" style="color:transparent"
+                                    src="https://www.lifepharmacy.com/images/standard-nr.svg"><span
+                                    class="lg:text-xs my-auto lg:ml-3 ml-1 text-[10px]">12 - 24 HRS</span></div><button
+                                class="bg-[#39f] text-white px-2 flex  justify-center  lg:py-1 py-1 rounded"><svg
+                                    class="w-5 h-5 my-auto fill-white mr-2" fill="#000000" viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M 4 7 C 3.449219 7 3 7.449219 3 8 C 3 8.550781 3.449219 9 4 9 L 6.21875 9 L 8.84375 19.5 C 9.066406 20.390625 9.863281 21 10.78125 21 L 23.25 21 C 24.152344 21 24.917969 20.402344 25.15625 19.53125 L 27.75 10 L 25.65625 10 L 23.25 19 L 10.78125 19 L 8.15625 8.5 C 7.933594 7.609375 7.136719 7 6.21875 7 Z M 22 21 C 20.355469 21 19 22.355469 19 24 C 19 25.644531 20.355469 27 22 27 C 23.644531 27 25 25.644531 25 24 C 25 22.355469 23.644531 21 22 21 Z M 13 21 C 11.355469 21 10 22.355469 10 24 C 10 25.644531 11.355469 27 13 27 C 14.644531 27 16 25.644531 16 24 C 16 22.355469 14.644531 21 13 21 Z M 16 7 L 16 10 L 13 10 L 13 12 L 16 12 L 16 15 L 18 15 L 18 12 L 21 12 L 21 10 L 18 10 L 18 7 Z M 13 23 C 13.5625 23 14 23.4375 14 24 C 14 24.5625 13.5625 25 13 25 C 12.4375 25 12 24.5625 12 24 C 12 23.4375 12.4375 23 13 23 Z M 22 23 C 22.5625 23 23 23.4375 23 24 C 23 24.5625 22.5625 25 22 25 C 21.4375 25 21 24.5625 21 24 C 21 23.4375 21.4375 23 22 23 Z">
+                                        </path>
+                                    </g>
+                                </svg><span class="my-auto text-xs ">ADD</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="relative border border-muted rounded-lg bg-white  max-w-[250px]">
+                <figure class="border border-muted m-2 rounded-lg relative "><a
+                        class="block bg-white  rounded-lg rounded-b-none  relative" href="#"><img alt="product_img"
+                            loading="lazy" width="200" height="200"
+                            class="rounded-lg  object-cover h-full w-full max-h-[200px]" style="color:transparent"
+                            src="https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/s/u/sunshine-n-omega-3-fish-oil-conc-1000-mg-100-sg_3.jpg">
+                        <span
+                            class="flex absolute bg-amber-400 opacity-90 rounded-bl-lg px-[7px] py-[1px] bottom-0 left-0 rounded-tr-xl shadow-xl ">
+                            <div class="my-auto"><svg xmlns="http://www.w3.org/2000/svg" fill="orange"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                                    class="lg:w-4 stroke-white lg:h-3 w-3 h-3 mr-1 fill-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                    </path>
+                                </svg></div>
+                            <div class=" lg:text-sm !text-[12px] text-white ml-1">4.7</div>
+                        </span>
+
+                        <div style="background:#d86e18"
+                            class="flex absolute left-0 top-0 w-fit text-white px-3 items-center rounded-tl-lg rounded-br-2xl text-[9px] sm:py-1 py-[2px] sm:text-xs h-fit">
+                            <span class="items-center">Best Seller</span>
+                            <div class="ml-2"><img alt="icon" loading="lazy" width="30" height="30" decoding="async"
+                                    data-nimg="1" class="sm:w-4 sm:h-4 h-2 w-2  flex item-center"
+                                    style="color:transparent" src="https://www.lifepharmacy.com/images/label/2.svg">
+                            </div>
+                        </div>
+                    </a></figure>
+                <div class="bg-white px-2 py-1 rounded-lg rounded-t-none">
+                    <div class="flex justify-between"><span class="whitespace-nowrap"><b class="text-red-500 "><span
+                                    class="md:text-xs text-[10px]">AED</span> <span
+                                    class="lg:text-lg sm:text-base text-base font-semibold">99.23</span></b><b
+                                class="sm:mx-3 ml-1 text-blue-400"><span
+                                    class="sm:text-xs text-[10px] line-through sm:inline-block hidden">AED</span> <span
+                                    class="sm:text-xs  line-through text-[10px]">141.75</span></b></span></div><a
+                        class="h-5 block" href="#">
+                        <div class="lg:text-sm text-xs text-[#002579] overflow-hidden whitespace-normal"
+                            style="-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box">Sunshine
+                            Nutrition Omega 3 Fish Oil Concentrate 1000mg 100 Softgels</div>
+                    </a>
+                    <div class="mt-5">
+                        <div class=" overflow-hidden whitespace-nowrap text-ellipsis"><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oils</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Senior
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Heart
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oil &amp; Omegas</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Immune
+                                Support</a></div>
+                        <div class="flex justify-between mt-3 items-center">
+                            <div class="flex"><img data-v-11f2193b="" alt="delivery-img" loading="lazy" width="20"
+                                    height="20" decoding="async" data-nimg="1" class="my-auto" style="color:transparent"
+                                    src="https://www.lifepharmacy.com/images/standard-nr.svg"><span
+                                    class="lg:text-xs my-auto lg:ml-3 ml-1 text-[10px]">12 - 24 HRS</span></div><button
+                                class="bg-[#39f] text-white px-2 flex  justify-center  lg:py-1 py-1 rounded"><svg
+                                    class="w-5 h-5 my-auto fill-white mr-2" fill="#000000" viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M 4 7 C 3.449219 7 3 7.449219 3 8 C 3 8.550781 3.449219 9 4 9 L 6.21875 9 L 8.84375 19.5 C 9.066406 20.390625 9.863281 21 10.78125 21 L 23.25 21 C 24.152344 21 24.917969 20.402344 25.15625 19.53125 L 27.75 10 L 25.65625 10 L 23.25 19 L 10.78125 19 L 8.15625 8.5 C 7.933594 7.609375 7.136719 7 6.21875 7 Z M 22 21 C 20.355469 21 19 22.355469 19 24 C 19 25.644531 20.355469 27 22 27 C 23.644531 27 25 25.644531 25 24 C 25 22.355469 23.644531 21 22 21 Z M 13 21 C 11.355469 21 10 22.355469 10 24 C 10 25.644531 11.355469 27 13 27 C 14.644531 27 16 25.644531 16 24 C 16 22.355469 14.644531 21 13 21 Z M 16 7 L 16 10 L 13 10 L 13 12 L 16 12 L 16 15 L 18 15 L 18 12 L 21 12 L 21 10 L 18 10 L 18 7 Z M 13 23 C 13.5625 23 14 23.4375 14 24 C 14 24.5625 13.5625 25 13 25 C 12.4375 25 12 24.5625 12 24 C 12 23.4375 12.4375 23 13 23 Z M 22 23 C 22.5625 23 23 23.4375 23 24 C 23 24.5625 22.5625 25 22 25 C 21.4375 25 21 24.5625 21 24 C 21 23.4375 21.4375 23 22 23 Z">
+                                        </path>
+                                    </g>
+                                </svg><span class="my-auto text-xs ">ADD</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="relative border border-muted rounded-lg bg-white  max-w-[250px]">
+                <figure class="border border-muted m-2 rounded-lg relative "><a
+                        class="block bg-white  rounded-lg rounded-b-none  relative" href="#"><img alt="product_img"
+                            loading="lazy" width="200" height="200"
+                            class="rounded-lg  object-cover h-full w-full max-h-[200px]" style="color:transparent"
+                            src="https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/s/u/sunshine-n-omega-3-fish-oil-conc-1000-mg-100-sg_3.jpg">
+                        <span
+                            class="flex absolute bg-amber-400 opacity-90 rounded-bl-lg px-[7px] py-[1px] bottom-0 left-0 rounded-tr-xl shadow-xl ">
+                            <div class="my-auto"><svg xmlns="http://www.w3.org/2000/svg" fill="orange"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                                    class="lg:w-4 stroke-white lg:h-3 w-3 h-3 mr-1 fill-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                    </path>
+                                </svg></div>
+                            <div class=" lg:text-sm !text-[12px] text-white ml-1">4.7</div>
+                        </span>
+
+                        <div style="background:#d86e18"
+                            class="flex absolute left-0 top-0 w-fit text-white px-3 items-center rounded-tl-lg rounded-br-2xl text-[9px] sm:py-1 py-[2px] sm:text-xs h-fit">
+                            <span class="items-center">Best Seller</span>
+                            <div class="ml-2"><img alt="icon" loading="lazy" width="30" height="30" decoding="async"
+                                    data-nimg="1" class="sm:w-4 sm:h-4 h-2 w-2  flex item-center"
+                                    style="color:transparent" src="https://www.lifepharmacy.com/images/label/2.svg">
+                            </div>
+                        </div>
+                    </a></figure>
+                <div class="bg-white px-2 py-1 rounded-lg rounded-t-none">
+                    <div class="flex justify-between"><span class="whitespace-nowrap"><b class="text-red-500 "><span
+                                    class="md:text-xs text-[10px]">AED</span> <span
+                                    class="lg:text-lg sm:text-base text-base font-semibold">99.23</span></b><b
+                                class="sm:mx-3 ml-1 text-blue-400"><span
+                                    class="sm:text-xs text-[10px] line-through sm:inline-block hidden">AED</span> <span
+                                    class="sm:text-xs  line-through text-[10px]">141.75</span></b></span></div><a
+                        class="h-5 block" href="#">
+                        <div class="lg:text-sm text-xs text-[#002579] overflow-hidden whitespace-normal"
+                            style="-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box">Sunshine
+                            Nutrition Omega 3 Fish Oil Concentrate 1000mg 100 Softgels</div>
+                    </a>
+                    <div class="mt-5">
+                        <div class=" overflow-hidden whitespace-nowrap text-ellipsis"><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oils</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Senior
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Heart
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oil &amp; Omegas</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Immune
+                                Support</a></div>
+                        <div class="flex justify-between mt-3 items-center">
+                            <div class="flex"><img data-v-11f2193b="" alt="delivery-img" loading="lazy" width="20"
+                                    height="20" decoding="async" data-nimg="1" class="my-auto" style="color:transparent"
+                                    src="https://www.lifepharmacy.com/images/standard-nr.svg"><span
+                                    class="lg:text-xs my-auto lg:ml-3 ml-1 text-[10px]">12 - 24 HRS</span></div><button
+                                class="bg-[#39f] text-white px-2 flex  justify-center  lg:py-1 py-1 rounded"><svg
+                                    class="w-5 h-5 my-auto fill-white mr-2" fill="#000000" viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M 4 7 C 3.449219 7 3 7.449219 3 8 C 3 8.550781 3.449219 9 4 9 L 6.21875 9 L 8.84375 19.5 C 9.066406 20.390625 9.863281 21 10.78125 21 L 23.25 21 C 24.152344 21 24.917969 20.402344 25.15625 19.53125 L 27.75 10 L 25.65625 10 L 23.25 19 L 10.78125 19 L 8.15625 8.5 C 7.933594 7.609375 7.136719 7 6.21875 7 Z M 22 21 C 20.355469 21 19 22.355469 19 24 C 19 25.644531 20.355469 27 22 27 C 23.644531 27 25 25.644531 25 24 C 25 22.355469 23.644531 21 22 21 Z M 13 21 C 11.355469 21 10 22.355469 10 24 C 10 25.644531 11.355469 27 13 27 C 14.644531 27 16 25.644531 16 24 C 16 22.355469 14.644531 21 13 21 Z M 16 7 L 16 10 L 13 10 L 13 12 L 16 12 L 16 15 L 18 15 L 18 12 L 21 12 L 21 10 L 18 10 L 18 7 Z M 13 23 C 13.5625 23 14 23.4375 14 24 C 14 24.5625 13.5625 25 13 25 C 12.4375 25 12 24.5625 12 24 C 12 23.4375 12.4375 23 13 23 Z M 22 23 C 22.5625 23 23 23.4375 23 24 C 23 24.5625 22.5625 25 22 25 C 21.4375 25 21 24.5625 21 24 C 21 23.4375 21.4375 23 22 23 Z">
+                                        </path>
+                                    </g>
+                                </svg><span class="my-auto text-xs ">ADD</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="relative border border-muted rounded-lg bg-white  max-w-[250px]">
+                <figure class="border border-muted m-2 rounded-lg relative "><a
+                        class="block bg-white  rounded-lg rounded-b-none  relative" href="#"><img alt="product_img"
+                            loading="lazy" width="200" height="200"
+                            class="rounded-lg  object-cover h-full w-full max-h-[200px]" style="color:transparent"
+                            src="https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/s/u/sunshine-n-omega-3-fish-oil-conc-1000-mg-100-sg_3.jpg">
+                        <span
+                            class="flex absolute bg-amber-400 opacity-90 rounded-bl-lg px-[7px] py-[1px] bottom-0 left-0 rounded-tr-xl shadow-xl ">
+                            <div class="my-auto"><svg xmlns="http://www.w3.org/2000/svg" fill="orange"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                                    class="lg:w-4 stroke-white lg:h-3 w-3 h-3 mr-1 fill-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                    </path>
+                                </svg></div>
+                            <div class=" lg:text-sm !text-[12px] text-white ml-1">4.7</div>
+                        </span>
+
+                        <div style="background:#d86e18"
+                            class="flex absolute left-0 top-0 w-fit text-white px-3 items-center rounded-tl-lg rounded-br-2xl text-[9px] sm:py-1 py-[2px] sm:text-xs h-fit">
+                            <span class="items-center">Best Seller</span>
+                            <div class="ml-2"><img alt="icon" loading="lazy" width="30" height="30" decoding="async"
+                                    data-nimg="1" class="sm:w-4 sm:h-4 h-2 w-2  flex item-center"
+                                    style="color:transparent" src="https://www.lifepharmacy.com/images/label/2.svg">
+                            </div>
+                        </div>
+                    </a></figure>
+                <div class="bg-white px-2 py-1 rounded-lg rounded-t-none">
+                    <div class="flex justify-between"><span class="whitespace-nowrap"><b class="text-red-500 "><span
+                                    class="md:text-xs text-[10px]">AED</span> <span
+                                    class="lg:text-lg sm:text-base text-base font-semibold">99.23</span></b><b
+                                class="sm:mx-3 ml-1 text-blue-400"><span
+                                    class="sm:text-xs text-[10px] line-through sm:inline-block hidden">AED</span> <span
+                                    class="sm:text-xs  line-through text-[10px]">141.75</span></b></span></div><a
+                        class="h-5 block" href="#">
+                        <div class="lg:text-sm text-xs text-[#002579] overflow-hidden whitespace-normal"
+                            style="-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box">Sunshine
+                            Nutrition Omega 3 Fish Oil Concentrate 1000mg 100 Softgels</div>
+                    </a>
+                    <div class="mt-5">
+                        <div class=" overflow-hidden whitespace-nowrap text-ellipsis"><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oils</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Senior
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Heart
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oil &amp; Omegas</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Immune
+                                Support</a></div>
+                        <div class="flex justify-between mt-3 items-center">
+                            <div class="flex"><img data-v-11f2193b="" alt="delivery-img" loading="lazy" width="20"
+                                    height="20" decoding="async" data-nimg="1" class="my-auto" style="color:transparent"
+                                    src="https://www.lifepharmacy.com/images/standard-nr.svg"><span
+                                    class="lg:text-xs my-auto lg:ml-3 ml-1 text-[10px]">12 - 24 HRS</span></div><button
+                                class="bg-[#39f] text-white px-2 flex  justify-center  lg:py-1 py-1 rounded"><svg
+                                    class="w-5 h-5 my-auto fill-white mr-2" fill="#000000" viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M 4 7 C 3.449219 7 3 7.449219 3 8 C 3 8.550781 3.449219 9 4 9 L 6.21875 9 L 8.84375 19.5 C 9.066406 20.390625 9.863281 21 10.78125 21 L 23.25 21 C 24.152344 21 24.917969 20.402344 25.15625 19.53125 L 27.75 10 L 25.65625 10 L 23.25 19 L 10.78125 19 L 8.15625 8.5 C 7.933594 7.609375 7.136719 7 6.21875 7 Z M 22 21 C 20.355469 21 19 22.355469 19 24 C 19 25.644531 20.355469 27 22 27 C 23.644531 27 25 25.644531 25 24 C 25 22.355469 23.644531 21 22 21 Z M 13 21 C 11.355469 21 10 22.355469 10 24 C 10 25.644531 11.355469 27 13 27 C 14.644531 27 16 25.644531 16 24 C 16 22.355469 14.644531 21 13 21 Z M 16 7 L 16 10 L 13 10 L 13 12 L 16 12 L 16 15 L 18 15 L 18 12 L 21 12 L 21 10 L 18 10 L 18 7 Z M 13 23 C 13.5625 23 14 23.4375 14 24 C 14 24.5625 13.5625 25 13 25 C 12.4375 25 12 24.5625 12 24 C 12 23.4375 12.4375 23 13 23 Z M 22 23 C 22.5625 23 23 23.4375 23 24 C 23 24.5625 22.5625 25 22 25 C 21.4375 25 21 24.5625 21 24 C 21 23.4375 21.4375 23 22 23 Z">
+                                        </path>
+                                    </g>
+                                </svg><span class="my-auto text-xs ">ADD</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative border border-muted rounded-lg bg-white  max-w-[250px]">
+                <figure class="border border-muted m-2 rounded-lg relative "><a
+                        class="block bg-white  rounded-lg rounded-b-none  relative" href="#"><img alt="product_img"
+                            loading="lazy" width="200" height="200"
+                            class="rounded-lg  object-cover h-full w-full max-h-[200px]" style="color:transparent"
+                            src="https://life-cdn.lifepharmacy.com/archieved-images/media/catalog/product/s/u/sunshine-n-omega-3-fish-oil-conc-1000-mg-100-sg_3.jpg">
+                        <span
+                            class="flex absolute bg-amber-400 opacity-90 rounded-bl-lg px-[7px] py-[1px] bottom-0 left-0 rounded-tr-xl shadow-xl ">
+                            <div class="my-auto"><svg xmlns="http://www.w3.org/2000/svg" fill="orange"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
+                                    class="lg:w-4 stroke-white lg:h-3 w-3 h-3 mr-1 fill-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z">
+                                    </path>
+                                </svg></div>
+                            <div class=" lg:text-sm !text-[12px] text-white ml-1">4.7</div>
+                        </span>
+
+                        <div style="background:#d86e18"
+                            class="flex absolute left-0 top-0 w-fit text-white px-3 items-center rounded-tl-lg rounded-br-2xl text-[9px] sm:py-1 py-[2px] sm:text-xs h-fit">
+                            <span class="items-center">Best Seller</span>
+                            <div class="ml-2"><img alt="icon" loading="lazy" width="30" height="30" decoding="async"
+                                    data-nimg="1" class="sm:w-4 sm:h-4 h-2 w-2  flex item-center"
+                                    style="color:transparent" src="https://www.lifepharmacy.com/images/label/2.svg">
+                            </div>
+                        </div>
+                    </a></figure>
+                <div class="bg-white px-2 py-1 rounded-lg rounded-t-none">
+                    <div class="flex justify-between"><span class="whitespace-nowrap"><b class="text-red-500 "><span
+                                    class="md:text-xs text-[10px]">AED</span> <span
+                                    class="lg:text-lg sm:text-base text-base font-semibold">99.23</span></b><b
+                                class="sm:mx-3 ml-1 text-blue-400"><span
+                                    class="sm:text-xs text-[10px] line-through sm:inline-block hidden">AED</span> <span
+                                    class="sm:text-xs  line-through text-[10px]">141.75</span></b></span></div><a
+                        class="h-5 block" href="#">
+                        <div class="lg:text-sm text-xs text-[#002579] overflow-hidden whitespace-normal"
+                            style="-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box">Sunshine
+                            Nutrition Omega 3 Fish Oil Concentrate 1000mg 100 Softgels</div>
+                    </a>
+                    <div class="mt-5">
+                        <div class=" overflow-hidden whitespace-nowrap text-ellipsis"><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oils</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Senior
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Heart
+                                Health</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Fish
+                                Oil &amp; Omegas</a><a href="#"
+                                class="inline-flex lg:text-[10px] text-[9px] border border-slate-200 hover:bg-gray-300 hover-border-white mr-2 rounded-md px-2 bg-[#f4f7ff] py-[2px] text-[#002579]">Immune
+                                Support</a></div>
+                        <div class="flex justify-between mt-3 items-center">
+                            <div class="flex"><img data-v-11f2193b="" alt="delivery-img" loading="lazy" width="20"
+                                    height="20" decoding="async" data-nimg="1" class="my-auto" style="color:transparent"
+                                    src="https://www.lifepharmacy.com/images/standard-nr.svg"><span
+                                    class="lg:text-xs my-auto lg:ml-3 ml-1 text-[10px]">12 - 24 HRS</span></div><button
+                                class="bg-[#39f] text-white px-2 flex  justify-center  lg:py-1 py-1 rounded"><svg
+                                    class="w-5 h-5 my-auto fill-white mr-2" fill="#000000" viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M 4 7 C 3.449219 7 3 7.449219 3 8 C 3 8.550781 3.449219 9 4 9 L 6.21875 9 L 8.84375 19.5 C 9.066406 20.390625 9.863281 21 10.78125 21 L 23.25 21 C 24.152344 21 24.917969 20.402344 25.15625 19.53125 L 27.75 10 L 25.65625 10 L 23.25 19 L 10.78125 19 L 8.15625 8.5 C 7.933594 7.609375 7.136719 7 6.21875 7 Z M 22 21 C 20.355469 21 19 22.355469 19 24 C 19 25.644531 20.355469 27 22 27 C 23.644531 27 25 25.644531 25 24 C 25 22.355469 23.644531 21 22 21 Z M 13 21 C 11.355469 21 10 22.355469 10 24 C 10 25.644531 11.355469 27 13 27 C 14.644531 27 16 25.644531 16 24 C 16 22.355469 14.644531 21 13 21 Z M 16 7 L 16 10 L 13 10 L 13 12 L 16 12 L 16 15 L 18 15 L 18 12 L 21 12 L 21 10 L 18 10 L 18 7 Z M 13 23 C 13.5625 23 14 23.4375 14 24 C 14 24.5625 13.5625 25 13 25 C 12.4375 25 12 24.5625 12 24 C 12 23.4375 12.4375 23 13 23 Z M 22 23 C 22.5625 23 23 23.4375 23 24 C 23 24.5625 22.5625 25 22 25 C 21.4375 25 21 24.5625 21 24 C 21 23.4375 21.4375 23 22 23 Z">
+                                        </path>
+                                    </g>
+                                </svg><span class="my-auto text-xs ">ADD</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About us Section-->
+    <section>
+        <div class="grid lg:grid-cols-2 gap-x-5 max-w-[1440px] mx-auto py-20 px-2">
+            <div>
+                <img src="/images/about-us.png" alt="" height="700" width="700">
+            </div>
+            <div class=" px-3">
+                <h3 class="text-[#29308B] font-bold text-3xl mb-5">About Us</h3>
+                <p class="text-lg">we are proud to introduce the first-ever Digital Outlet for Health
+                    Products in the
+                    UAE. This
+                    innovative platform allows our customers to conveniently access a wide range of health and wellness
+                    products online, right from the comfort of their homes. With just a few clicks, customers can browse
+                    through our extensive catalog, place orders, and have their products delivered to their doorstep in
+                    no time.
+                    <br>
+                    <br>
+                    Our digital outlet is designed to offer a seamless shopping experience, with user-friendly
+                    navigation, and detailed product information. We carefully curate our product range, ensuring that
+                    only high-quality, genuine products from trusted brands are available to our customers. Whether you
+                    are looking for personal care products, vitamins and supplements, or beauty care products, our
+                    digital outlet has you covered.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- why us section -->
+    <section class=" ">
+        <h3 class="text-[#29308B] font-bold text-3xl text-center mb-4">Why Us</h3>
+        <img src="/images/main-area-sep.png" alt="" class="mx-auto max-h-[200px] max-w-[200px]" height="200"
+            width="200">
+        <div class="py-10 max-w-[1440px] mx-auto">
+            <img src="/images/why-us/Why-us.png" alt="" class="w-full">
+        </div>
+    </section>
+
+    <!-- testimonials -->
+    <section>
+        <div class="py-10">
+            <div>
+                <h3 class="text-[#29308B] font-bold text-3xl text-center mb-4">Testimonials</h3>
+                <img src="/images/main-area-sep.png" alt="" class="mx-auto max-h-[200px] max-w-[200px]" height="200"
+                    width="200">
+            </div>
+            <div
+                class="md:grid grid-cols-2 block text-center gap-x-5 max-w-[1440px] mx-auto py-20 md:space-y-0 space-y-10">
+                <div class="space-y-10 mx-auto p-7 w-[75%] shadow-lg rounded-lg">
+                    <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repudiandae
+                        temporibus
+                        perspiciatis commodi facere, quos aspernatur sed atque impedit quae voluptatibus quis nihil
+                        perferendis dolores nam iste officiis quidem delectus.</p>
+                    <div class="space-y-4">
+                        <h5 class="text-xl text-emerald-800 font-bold ">Jody Andrews</h5>
+                        <small class="text-sm font-bold text-[#738694]">Project Manager</small>
+                        <img src="/images/testimonials-user/user.png" alt="" class="mx-auto" height="120" width="120">
+                    </div>
+                </div>
+                <div class="space-y-10 mx-auto p-7 w-[75%] shadow-lg rounded-lg">
+                    <p class=" text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis repudiandae
+                        temporibus
+                        perspiciatis commodi facere, quos aspernatur sed atque impedit quae voluptatibus quis nihil
+                        perferendis dolores nam iste officiis quidem delectus.</p>
+                    <div class="space-y-4">
+                        <h5 class="text-xl text-emerald-800 font-bold ">Gene Green</h5>
+                        <small class="text-sm font-bold text-[#738694]">Business Analyst</small>
+                        <img src="/images/testimonials-user/user.png" alt="" class="mx-auto" height="120" width="120">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer
+        class="bg-[#27318B] relative bg-[url(/images/footer/footer-bg-overlay.png)] bg-left-top bg-contain bg-no-repeat">
+        <div class="grid grid-cols-12 max-w-[1440px] mx-auto p-10 text-slate-300 space-y-10">
+            <div class="xl:col-span-4 col-span-6">
+                <img src="/images/navbar/site-logo.png" alt="" height="300" width="350">
+                <div class="grid grid-cols-12 gap-y-2 ml-5">
+                    <a href="mailto:outlet@life-me.com" class="col-span-12 block">Outlet@life-me.com</a>
+                    <p class="col-span-3 block">Landline </p>
+                    <a href="tel:045812487" class="col-span-9 block">: 045812487</a>
+                    <p class="col-span-3 block">Mobile </p>
+                    <a href="tel:0502119477" class="col-span-9 block">: 0502119477</a>
+                </div>
+            </div>
+            <div class="xl:col-span-8 col-span-full grid grid-cols-12  gap-x-10 md:space-y-0 space-y-5 px-5">
+
+                <div class="md:col-span-5 col-span-full">
+                    <h3 class="font-bold text-xl mb-5">Contact Us</h3>
+                    <div class="grid grid-cols-12 gap-y-2">
+
+                        <label for="name-field" class="md:col-span-4 col-span-3">Name</label>
+                        <input type="text" id="name-field" class="col-span-8 p-1 text-black">
+
+                        <label for="email-field" class="md:col-span-4 col-span-3">Email</label>
+                        <input type="text" id="email-field" class="col-span-8 p-1 text-black">
+
+
+                        <label for="number-field" class="md:col-span-4 col-span-3">Number</label>
+                        <input type="text" id="number-field" class="col-span-8 p-1 text-black">
+
+                        <label for="message-field" class="md:col-span-4 col-span-3">Message</label>
+                        <textarea id="message-field" class="w-full col-span-8 p-1 text-black " rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="col-span-1"></div>
+                <div
+                    class="md:col-span-5 col-span-full grid grid-cols-2 lg:mx-auto mx-0 gap-x-10 md:space-y-0 space-y-10">
+                    <div class="md:col-span-1 col-span-full ">
+                        <h3 class="font-bold text-xl mb-5">Menu</h3>
+                        <ul class="space-y-1">
+                            <li>
+                                <a href="/home">Home</a>
+                            </li>
+                            <li>
+                                <a href="/categories">Categories</a>
+                            </li>
+                            <li>
+                                <a href="/products">Products</a>
+                            </li>
+                            <li>
+                                <a href="/membership">Membership</a>
+                            </li>
+                            <li>
+                                <a href="/about-us">About Us</a>
+                            </li>
+                            <li>
+                                <a href="/why-us">Why Us</a>
+                            </li>
+                            <li>
+                                <a href="/testimonials">Testimonials</a>
+                            </li>
+                            <li>
+                                <a href="/contact-us">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:col-span-1 col-span-full">
+                        <h3 class="font-bold text-xl mb-5">Menu</h3>
+                        <ul class="space-y-1">
+                            <li>
+                                <a href="/healthy">Healthy</a>
+                            </li>
+                            <li>
+                                <a href="/mother-baby">Mother & Baby</a>
+                            </li>
+                            <li>
+                                <a href="/personal-care">Personal Care</a>
+                            </li>
+                            <li>
+                                <a href="/beauty">Beauty</a>
+                            </li>
+                            <li>
+                                <a href="/vitamins">Vitamins</a>
+                            </li>
+                            <li>
+                                <a href="/home-health-care">Home Healthcare</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="flex justify-between max-w-[1440px] mx-auto text-slate-200 p-10 ">
+            <p class="ml-5">Copyright 2023 Outlet by Life</p>
+            <!-- footer-social-media-logos -->
+            <div class="flex space-x-3">
+                <a href="https://instagram.com"
+                    class="underline-tra rounded-full border-white border p-2 hover:bg-white hover:text-[#092746] duration-300 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/"
+                    class="rounded-full border-white border p-2 hover:bg-white hover:text-[#092746] duration-300 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                    </svg>
+                </a>
+                <a href="https://twitter.com/"
+                    class="rounded-full border-white border p-2 hover:bg-white hover:text-[#092746] duration-300 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/"
+                    class="rounded-full border-white border p-2 hover:bg-white hover:text-[#092746] duration-300 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
